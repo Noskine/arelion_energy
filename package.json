@@ -29,8 +29,12 @@
 		"typescript-eslint": "^8.0.0",
 		"vite": "^5.0.3"
 	},
+<<<<<<< HEAD
 	"type": "module",
 	"dependencies": {
 		"lucide-svelte": "^0.446.0"
 	}
+=======
+	"type": "module"
+>>>>>>> eef1d67f (starting new project)
 }

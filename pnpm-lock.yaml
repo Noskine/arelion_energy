@@ -7,10 +7,13 @@ settings:
 importers:
 
   .:
+<<<<<<< HEAD
     dependencies:
       lucide-svelte:
         specifier: ^0.446.0
         version: 0.446.0(svelte@4.2.19)
+=======
+>>>>>>> eef1d67f (starting new project)
     devDependencies:
       '@fontsource/fira-mono':
         specifier: ^5.0.0
@@ -20,6 +23,7 @@ importers:
         version: 2.2.1
       '@sveltejs/adapter-auto':
         specifier: ^3.0.0
+<<<<<<< HEAD
         version: 3.2.5(@sveltejs/kit@2.6.0(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8(sass@1.79.4)))(svelte@4.2.19)(vite@5.4.8(sass@1.79.4)))
       '@sveltejs/kit':
         specifier: ^2.0.0
@@ -27,6 +31,15 @@ importers:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^3.0.0
         version: 3.1.2(svelte@4.2.19)(vite@5.4.8(sass@1.79.4))
+=======
+        version: 3.2.5(@sveltejs/kit@2.6.0(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8))(svelte@4.2.19)(vite@5.4.8))
+      '@sveltejs/kit':
+        specifier: ^2.0.0
+        version: 2.6.0(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8))(svelte@4.2.19)(vite@5.4.8)
+      '@sveltejs/vite-plugin-svelte':
+        specifier: ^3.0.0
+        version: 3.1.2(svelte@4.2.19)(vite@5.4.8)
+>>>>>>> eef1d67f (starting new project)
       '@types/eslint':
         specifier: ^9.6.0
         version: 9.6.1
@@ -62,7 +75,11 @@ importers:
         version: 8.7.0(eslint@9.11.1)(typescript@5.6.2)
       vite:
         specifier: ^5.0.3
+<<<<<<< HEAD
         version: 5.4.8(sass@1.79.4)
+=======
+        version: 5.4.8
+>>>>>>> eef1d67f (starting new project)
 
 packages:
 
@@ -741,9 +758,12 @@ packages:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
 
+<<<<<<< HEAD
   immutable@4.3.7:
     resolution: {integrity: sha512-1hqclzwYwjRDFLjcFxOM5AYkkG0rpFPpr1RLPMEuGczoS7YA8gLhy8SWXYRAA/XwfEHpfo3cw5JGioS32fnMRw==}
 
+=======
+>>>>>>> eef1d67f (starting new project)
   import-fresh@3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
     engines: {node: '>=6'}
@@ -818,11 +838,14 @@ packages:
   lodash.merge@4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
 
+<<<<<<< HEAD
   lucide-svelte@0.446.0:
     resolution: {integrity: sha512-ofx/Ykes1q1/sb0t4weezIt0SrMZd4x5Ox1APeR/ZgAHB7taXHqEExS9aGVImFqS35CfnjNGUqMr16/GwTd2lQ==}
     peerDependencies:
       svelte: ^3 || ^4 || ^5.0.0-next.42
 
+=======
+>>>>>>> eef1d67f (starting new project)
   magic-string@0.30.11:
     resolution: {integrity: sha512-+Wri9p0QHMy+545hKww7YAu5NyzF8iomPL/RQazugQ9+Ez4Ic3mERMd8ZTX5rfK944j+560ZJi8iAwgak1Ac7A==}
 
@@ -975,11 +998,14 @@ packages:
     resolution: {integrity: sha512-xal3CZX1Xlo/k4ApwCFrHVACi9fBqJ7V+mwhBsuf/1IOKbBy098Fex+Wa/5QMubw09pSZ/u8EY8PWgevJsXp1A==}
     engines: {node: '>=6'}
 
+<<<<<<< HEAD
   sass@1.79.4:
     resolution: {integrity: sha512-K0QDSNPXgyqO4GZq2HO5Q70TLxTH6cIT59RdoCHMivrC8rqzaTw5ab9prjz9KUN1El4FLXrBXJhik61JR4HcGg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
+=======
+>>>>>>> eef1d67f (starting new project)
   semver@7.6.3:
     resolution: {integrity: sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==}
     engines: {node: '>=10'}
@@ -1345,6 +1371,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.22.5':
     optional: true
 
+<<<<<<< HEAD
   '@sveltejs/adapter-auto@3.2.5(@sveltejs/kit@2.6.0(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8(sass@1.79.4)))(svelte@4.2.19)(vite@5.4.8(sass@1.79.4)))':
     dependencies:
       '@sveltejs/kit': 2.6.0(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8(sass@1.79.4)))(svelte@4.2.19)(vite@5.4.8(sass@1.79.4))
@@ -1353,6 +1380,16 @@ snapshots:
   '@sveltejs/kit@2.6.0(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8(sass@1.79.4)))(svelte@4.2.19)(vite@5.4.8(sass@1.79.4))':
     dependencies:
       '@sveltejs/vite-plugin-svelte': 3.1.2(svelte@4.2.19)(vite@5.4.8(sass@1.79.4))
+=======
+  '@sveltejs/adapter-auto@3.2.5(@sveltejs/kit@2.6.0(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8))(svelte@4.2.19)(vite@5.4.8))':
+    dependencies:
+      '@sveltejs/kit': 2.6.0(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8))(svelte@4.2.19)(vite@5.4.8)
+      import-meta-resolve: 4.1.0
+
+  '@sveltejs/kit@2.6.0(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8))(svelte@4.2.19)(vite@5.4.8)':
+    dependencies:
+      '@sveltejs/vite-plugin-svelte': 3.1.2(svelte@4.2.19)(vite@5.4.8)
+>>>>>>> eef1d67f (starting new project)
       '@types/cookie': 0.6.0
       cookie: 0.6.0
       devalue: 5.1.1
@@ -1366,6 +1403,7 @@ snapshots:
       sirv: 2.0.4
       svelte: 4.2.19
       tiny-glob: 0.2.9
+<<<<<<< HEAD
       vite: 5.4.8(sass@1.79.4)
 
   '@sveltejs/vite-plugin-svelte-inspector@2.1.0(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8(sass@1.79.4)))(svelte@4.2.19)(vite@5.4.8(sass@1.79.4))':
@@ -1380,14 +1418,35 @@ snapshots:
   '@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8(sass@1.79.4))':
     dependencies:
       '@sveltejs/vite-plugin-svelte-inspector': 2.1.0(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8(sass@1.79.4)))(svelte@4.2.19)(vite@5.4.8(sass@1.79.4))
+=======
+      vite: 5.4.8
+
+  '@sveltejs/vite-plugin-svelte-inspector@2.1.0(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8))(svelte@4.2.19)(vite@5.4.8)':
+    dependencies:
+      '@sveltejs/vite-plugin-svelte': 3.1.2(svelte@4.2.19)(vite@5.4.8)
+      debug: 4.3.7
+      svelte: 4.2.19
+      vite: 5.4.8
+    transitivePeerDependencies:
+      - supports-color
+
+  '@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8)':
+    dependencies:
+      '@sveltejs/vite-plugin-svelte-inspector': 2.1.0(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.8))(svelte@4.2.19)(vite@5.4.8)
+>>>>>>> eef1d67f (starting new project)
       debug: 4.3.7
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.11
       svelte: 4.2.19
       svelte-hmr: 0.16.0(svelte@4.2.19)
+<<<<<<< HEAD
       vite: 5.4.8(sass@1.79.4)
       vitefu: 0.2.5(vite@5.4.8(sass@1.79.4))
+=======
+      vite: 5.4.8
+      vitefu: 0.2.5(vite@5.4.8)
+>>>>>>> eef1d67f (starting new project)
     transitivePeerDependencies:
       - supports-color
 
@@ -1782,9 +1841,12 @@ snapshots:
 
   ignore@5.3.2: {}
 
+<<<<<<< HEAD
   immutable@4.3.7:
     optional: true
 
+=======
+>>>>>>> eef1d67f (starting new project)
   import-fresh@3.3.0:
     dependencies:
       parent-module: 1.0.1
@@ -1843,10 +1905,13 @@ snapshots:
 
   lodash.merge@4.6.2: {}
 
+<<<<<<< HEAD
   lucide-svelte@0.446.0(svelte@4.2.19):
     dependencies:
       svelte: 4.2.19
 
+=======
+>>>>>>> eef1d67f (starting new project)
   magic-string@0.30.11:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.0
@@ -1988,6 +2053,7 @@ snapshots:
     dependencies:
       mri: 1.2.0
 
+<<<<<<< HEAD
   sass@1.79.4:
     dependencies:
       chokidar: 4.0.1
@@ -1995,6 +2061,8 @@ snapshots:
       source-map-js: 1.2.1
     optional: true
 
+=======
+>>>>>>> eef1d67f (starting new project)
   semver@7.6.3: {}
 
   set-cookie-parser@2.7.0: {}
@@ -2106,18 +2174,29 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
+<<<<<<< HEAD
   vite@5.4.8(sass@1.79.4):
+=======
+  vite@5.4.8:
+>>>>>>> eef1d67f (starting new project)
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.47
       rollup: 4.22.5
     optionalDependencies:
       fsevents: 2.3.3
+<<<<<<< HEAD
       sass: 1.79.4
 
   vitefu@0.2.5(vite@5.4.8(sass@1.79.4)):
     optionalDependencies:
       vite: 5.4.8(sass@1.79.4)
+=======
+
+  vitefu@0.2.5(vite@5.4.8):
+    optionalDependencies:
+      vite: 5.4.8
+>>>>>>> eef1d67f (starting new project)
 
   which@2.0.2:
     dependencies:
