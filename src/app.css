@@ -8,7 +8,13 @@
 	--shadow: 0px 1px 30px 1px #00000052;
 =======
 	--background: #f1f1f1;	
+<<<<<<< HEAD
 >>>>>>> eef1d67f (starting new project)
+=======
+	--color: #202020;
+	--opaciteColor: #959595;
+	--shadow: 0px 1px 30px 1px #00000028;
+>>>>>>> 8092affd (finish header menubar)
 
 	font-size: 62.5%;
 }
