@@ -13,8 +13,12 @@
 =======
 	--color: #202020;
 	--opaciteColor: #959595;
+<<<<<<< HEAD
 	--shadow: 0px 1px 30px 1px #00000028;
 >>>>>>> 8092affd (finish header menubar)
+=======
+	--shadow: 0px 1px 30px 1px #00000052;
+>>>>>>> a6f83b12 (crate readLine)
 
 	font-size: 62.5%;
 }

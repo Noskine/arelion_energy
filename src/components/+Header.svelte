@@ -74,8 +74,12 @@
 			rgba(98, 246, 235, 1) 100%
 		);
 		background: linear-gradient(228deg, rgba(77, 137, 255, 1) 0%, rgba(98, 246, 235, 1) 100%);
-		transition: 10s ease-in-out;
-
+		transition: 300ms;
+		
 		box-shadow: 0px 1px 4px 1px #00000026;
+		&:hover {
+			transition: 300ms;
+			transform: scale(1.05);
+		}
 	}
 </style>
