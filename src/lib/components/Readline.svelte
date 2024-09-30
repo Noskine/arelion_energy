@@ -1,21 +1,21 @@
 <script>
 	import Header from './Header.svelte';
-	import src from '../images/usina-solar-3.jpg';
+	import src from '../images/Placa-Solar-Grupower-2.jpg';
 	import { Link } from 'lucide-svelte';
 </script>
 
 <section class="readline-home-page" style={`background-image: url(${src})`}>
 	<Header />
 	<section class="content-readline-text-box">
-		<h1>Economize hoje e começe seu futuro com Arelion Sol Energy</h1>
-		<hr />
-		<p>
+		<h1 class="text-readline">Economize hoje e começe seu futuro com Arelion Sol Energy</h1>
+		<hr class="text-readline" />
+		<p class="text-readline">
 			Trasforme sua residência/empresa em uma fonte de energia limpa e renovável. Solicite um
 			orçamento personalizdo agora mesmo.
 		</p>
 		<section class="buttons-content-readline">
 			<button> Orçamento personalizado </button>
-			<button>
+			<button class="budget">
 				Notícias
 				<Link size={14} />
 			</button>
@@ -24,10 +24,14 @@
 </section>
 
 <style>
+	.text-readline {
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.851);
+	}
+
 	.readline-home-page {
 		position: relative;
 		width: 100%;
-		height: 90vh;
+		height: 100vh;
 		background-size: cover;
 		z-index: 1;
 		overflow: hidden;
@@ -41,8 +45,6 @@
 		& hr {
 			margin-block: 20px 10px;
 		}
-
-
 
 		& .buttons-content-readline {
 			display: flex;
@@ -107,6 +109,31 @@
 			transform: translateY(-50%);
 			width: 48%;
 			padding: 0 5%;
+		}
+	}
+
+	@media (max-width: 920px) {
+		.content-readline-text-box {
+			width: 80% !important;
+		}
+	}
+
+	@media (max-width: 720px) {
+		.content-readline-text-box {
+			width: 100% !important;
+			text-align: center;
+		}
+
+		.content-readline-text-box p {
+			font-size: 1.3rem;
+		}
+
+		.buttons-content-readline button {
+			width: 100% !important;
+		}
+
+		.budget {
+			display: none !important;
 		}
 	}
 </style>

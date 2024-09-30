@@ -34,13 +34,15 @@
 		}
 
 		& .header-navbar-contact-us {
+			--colorLocalHeaderNavbarContactUs: #383838;
+
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			gap: 5px;
 			background-color: transparent;
-			color: var(--color);
-			border: 1px solid var(--color);
+			color: var(--colorLocalHeaderNavbarContactUs);
+			border: 1px solid var(--colorLocalHeaderNavbarContactUs);
 			padding: 5px 20px;
 			border-radius: 8px;
 			font-size: 1.2rem;
@@ -70,6 +72,10 @@
 		}
 		.header-mobile-button-navbar {
 			display: flex !important;
+
+			& > svg {
+				color: #212121;
+			}
 		}
 	}
 </style>

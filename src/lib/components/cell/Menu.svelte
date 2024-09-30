@@ -23,7 +23,7 @@
 		& li > a {
 			font-size: 1.3rem;
 			text-decoration: none;
-			color: var(--color);
+			color: #212121;
 			font-weight: 600;
 			transition: all 300ms;
 
