@@ -113,6 +113,10 @@
 	}
 
 	@media (max-width: 920px) {
+		.readline-home-page {
+			background-position: right;
+		}
+
 		.content-readline-text-box {
 			width: 80% !important;
 		}

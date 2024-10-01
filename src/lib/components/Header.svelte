@@ -34,7 +34,7 @@
 		}
 
 		& .header-navbar-contact-us {
-			--colorLocalHeaderNavbarContactUs: #383838;
+			--colorLocalHeaderNavbarContactUs: #f1f1f1;
 
 			display: flex;
 			align-items: center;
@@ -73,8 +73,8 @@
 		.header-mobile-button-navbar {
 			display: flex !important;
 
-			& > svg {
-				color: #212121;
+			& svg {
+				color: #f1f1f1;
 			}
 		}
 	}
