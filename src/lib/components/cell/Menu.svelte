@@ -1,19 +1,25 @@
 <script lang="ts">
 	let className: string = '';
 
-	export { className };
+	let isDark: boolean;
+
+	export { className, isDark };
 </script>
 
 <menu class={`header-menu-navbar ${className}`}>
 	<ul>
-		<li><a href="/">Sustentabilidade</a></li>
-		<li><a href="/">Economia</a></li>
-		<li><a href="/">Notícias</a></li>
-		<li><a href="/">Sobre nós</a></li>
+		<li><a class={isDark ? 'dark' : ''} href="/">Sustentabilidade</a></li>
+		<li><a class={isDark ? 'dark' : ''} href="/">Economia</a></li>
+		<li><a class={isDark ? 'dark' : ''} href="/">Notícias</a></li>
+		<li><a class={isDark ? 'dark' : ''} href="/">Sobre nós</a></li>
 	</ul>
 </menu>
 
 <style>
+	.dark {
+		color: #212121 !important;
+	}
+
 	.header-menu-navbar > ul {
 		display: flex;
 		align-items: center;
@@ -23,7 +29,7 @@
 		& li > a {
 			font-size: 1.3rem;
 			text-decoration: none;
-			color: #212121;
+			color: #f1f1f1;
 			font-weight: 600;
 			transition: all 300ms;
 

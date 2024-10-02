@@ -6,7 +6,7 @@
 
 <header class="app-header-navbar">
 	<Logo />
-	<Menu />
+	<Menu isDark={true}/>
 	<button class="header-navbar-contact-us">
 		Orçamento
 		<CirclePlus size={16} />
